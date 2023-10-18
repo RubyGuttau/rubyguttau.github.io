@@ -21,7 +21,7 @@
 	font-weight: 700;
 }
 
-body{
+body.home{
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -30,6 +30,18 @@ body{
   background-image: url('assets/logan-sargeant-williams-racing-1.webp');
   background-size: cover;
   background-attachment: fixed;
+}
+
+body.maclaren{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--color);
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url('assets/cars3.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* Navigation ----------------------------------------------------------------------------------------------*/ 
@@ -143,10 +155,20 @@ h2{
   font-weight: 400;
 }
 
+.deepsea{
+  color: rgb(12, 12, 115);
+}
+
+.font-weight-headline {
+  font-weight: 700;
+}
+
 .about-img{
   overflow: hidden;
-  background-image: url("assets/ph.png");
+  background-image: url("assets/f1logo.avif");
   border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
 }
 
 .long-txt{
@@ -155,7 +177,12 @@ h2{
 
 .intro{
   background-color: rgb(164, 215, 242);
-  padding: 20px;
+  padding: 10px;
+}
+
+.intro.about{
+  background-color: rgb(164, 215, 242);
+  padding: 10px;
 }
 
 .test{
@@ -401,9 +428,9 @@ footer {
 
   .about-img{
     position: absolute;
-    width: clamp(300px, 15vw, 500px);
-    height: clamp(420px, 45vh, 700px);
-    margin: 5vh 0px 0 50vw;
+    width: clamp(670px, 15vw, 500px);
+    height: clamp(30px, 45vh, 700px);
+    margin: 4vh 0px 0 46vw;
   }
 
   .long-txt{
