@@ -38,12 +38,33 @@ body.maclaren{
   background-color: var(--bg-color);
   color: var(--color);
   font-family: 'Noto Sans JP', sans-serif;
-  background-image: url('assets/cars3.jpeg');
+  background-image: url('assets/mclaren_okx_wide-mclaren-shoot.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
+body.redbull{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--color);
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url('assets/red-bull-rb19-us-gp-livery-1.webp');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.favs{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--color);
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url('assets/pirelli-tyre-1.webp');
+  background-size: cover;
+  background-attachment: fixed;
+}
 /* Navigation ----------------------------------------------------------------------------------------------*/ 
 nav{
   position: fixed;
@@ -170,6 +191,43 @@ h2{
   object-fit: cover;
   background-size: cover;
 }
+
+.img{
+  overflow: hidden;
+  background-image: url("assets/lando-norris-mclaren-3rd-posit-1.webp");
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
+  position: absolute;
+  width: clamp(670px, 15vw, 500px);
+  height: clamp(30px, 45vh, 700px);
+  margin: 4vh 0px 0 46vw;
+}
+
+.verstappen-img{
+  overflow: hidden;
+  background-image: url("assets/Verstappen.jpeg");
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
+  position: absolute;
+  width: clamp(670px, 15vw, 500px);
+  height: clamp(30px, 45vh, 700px);
+  margin: 4vh 0px 0 46vw;
+}
+
+.ferrariteam-img{
+  overflow: hidden;
+  background-image: url("assets/ferrari_team.jpeg");
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
+  position: absolute;
+  width: clamp(670px, 15vw, 500px);
+  height: clamp(30px, 45vh, 700px);
+  margin: 4vh 0px 0 46vw;
+}
+
 
 .long-txt{
   display: grid;
